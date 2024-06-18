@@ -17,7 +17,7 @@ Das Projekt umfasst die folgenden Hauptkomponenten:
 2. **RSA-Signaturerzeugung und -Verifikation**: Implementiert die Funktionen zur Signaturerstellung und -verifikation mittels RSA.
 3. **Universelle Fälschung von RSA-Signaturen**: Zeigt, wie ein Angreifer eine RSA-Signatur für eine beliebige Nachricht fälschen kann, ohne den privaten Schlüssel zu kennen.
 
-## BSI Empfehlungen aus [TR-02102](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=10) zur RSA Signatur
+## BSI Empfehlungen aus TR-02102 zur RSA Signatur
 Gemäß der BSI Technischen Richtlinie [TR-02102](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=10) für den Einsatz digitaler Signaturen sind folgende Empfehlungen relevant:
 
 
