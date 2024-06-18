@@ -17,16 +17,18 @@ Das Projekt umfasst die folgenden Hauptkomponenten:
 2. **RSA-Signaturerzeugung und -Verifikation**: Implementiert die Funktionen zur Signaturerstellung und -verifikation mittels RSA.
 3. **Universelle Fälschung von RSA-Signaturen**: Zeigt, wie ein Angreifer eine RSA-Signatur für eine beliebige Nachricht fälschen kann, ohne den privaten Schlüssel zu kennen.
 
-## BSI Empfehlungen aus TR-02102 zur RSA Signatur
-Gemäß der BSI Technischen Richtlinie TR-02102 für den Einsatz digitaler Signaturen sind folgende Empfehlungen relevant:
+## BSI Empfehlungen aus [TR-02102](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=10) zur RSA Signatur
+Gemäß der BSI Technischen Richtlinie [TR-02102](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=10) für den Einsatz digitaler Signaturen sind folgende Empfehlungen relevant:
+
 
 **RSA-Schlüssellänge**
 
 Die Länge des Modulus n sollte mindestens 3000 Bit betragen, um eine ausreichende Sicherheit gegenüber aktuellen und zukünftigen Kryptoanalysemethoden zu gewährleisten.
 
+
 **Hashfunktionen**
 
-Für die Verwendung in RSA-Signaturen werden bestimmte Hashfunktionen empfohlen, um die Sicherheit und Robustheit der Signaturen zu erhöhen. Empfohlene Hashfunktionen gemäß BSI TR-02102 sind:
+Für die Verwendung in RSA-Signaturen werden bestimmte Hashfunktionen empfohlen, um die Sicherheit und Robustheit der Signaturen zu erhöhen. Empfohlene Hashfunktionen gemäß BSI [TR-02102](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG02102/BSI-TR-02102-1.pdf?__blob=publicationFile&v=10) sind:
 
 - **SHA-256**: Eine kryptographisch sichere Hashfunktion mit einer Ausgabelänge von 256 Bit. Sie bietet eine gute Balance zwischen Geschwindigkeit und Sicherheit.
 - **SHA-384**: Eine Variante von SHA-2 mit einer Ausgabelänge von 384 Bit. Geeignet für Anwendungen, die eine höhere Sicherheitsreserve erfordern.
