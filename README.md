@@ -40,7 +40,7 @@ Diese Hashfunktionen sollten für die Erzeugung von Hashwerten verwendet werden,
 
 1. **Klonen Sie das Repository**:
    ```bash
-   git clone https://github.com/your_username/rsa_signature_forgery.git
+   git clone https://github.com/lastchopin/rsa_signature_forgery.git
    ```
 2. **Wechseln Sie in das Verzeichnis**:
    ```bash
